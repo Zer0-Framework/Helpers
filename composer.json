@@ -1,8 +1,8 @@
 {
-    "name"  : "Zer0-Framework/Helpers",
+    "name"  : "zer0-framework/helpers",
     "type"  : "library",
     "keywords": ["Zer0", "highload"],
-    "homepage": "https://github.com/Zer0-Framework/Helpers",
+    "homepage": "https://github.com/zer0-framework/helpers",
     "license" : "GPL-3.0-or-later",
     "description": "",
     "authors" : [
@@ -14,12 +14,12 @@
     ],
     "support" : {
         "email" : "kak.serpom.po.yaitsam@gmail.com",
-        "issues": "https://github.com/Zer0-Framework/Helpers/issues"
+        "issues": "https://github.com/zer0-framework/helpers/issues"
     },
     "require": {
         "php": ">=7.2",
-        "Zer0-Framework/Zer0": "*",
-        "Zer0-Framework/Config": "*"
+        "zer0-framework/core": "*",
+        "zer0-framework/config": "*"
     },
     "autoload": {
         "classmap": ["src/"]
